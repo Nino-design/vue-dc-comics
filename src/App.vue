@@ -3,7 +3,7 @@
     <!--HEADER-->
     <AppHeader />
     <main>
-      <h1>Content goes here</h1>
+      <AppJumbo />
     </main>
     <AppMainLinks />
     <footer>
@@ -16,6 +16,7 @@
 import AppHeader from "./components/AppHeader.vue";
 import AppMainLinks from "./components/AppMainLinks.vue";
 import AppTopFooter from "./components/AppTopFooter.vue";
+import AppJumbo from "./components/AppJumbo.vue";
 
 export default {
   name: "App",
@@ -23,6 +24,7 @@ export default {
     AppHeader,
     AppMainLinks,
     AppTopFooter,
+    AppJumbo,
   },
 };
 </script>

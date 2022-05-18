@@ -2,7 +2,7 @@
   <header class="header">
     <div class="header-wrapper container">
       <div class="header-img">
-        <img src="../assets/dc-logo.png" alt="dc-logo." />
+        <img src="../assets/img/dc-logo.png" alt="dc-logo." />
       </div>
       <div>
         <ul class="header-list">

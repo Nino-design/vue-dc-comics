@@ -1,4 +1,4 @@
-<!--<template>
+<template>
   <div class="main-links">
     <div class="container">
       <ul class="links-list">
@@ -45,4 +45,23 @@ export default {
 
 <style lang="scss" scoped>
 @import "../style/common.scss";
-</style>-->
+
+.main-links{
+  background-color: rgba(2,130,249,255);
+  color: white;
+  padding: 2rem 0;
+  .links-list {
+    display: flex;
+    li {
+      width: calc(100% / 5);
+      display: flex;
+      align-items: center;
+      padding: .5rem;
+      img {
+        width: 20%;
+        margin-right: 1rem;
+      }
+    }
+  }
+}
+</style>

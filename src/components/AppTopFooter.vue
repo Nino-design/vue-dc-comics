@@ -160,8 +160,9 @@ export default {
 <style lang="scss" scoped>
 @import "../style/common.scss";
 .footer {
-  background: url(../assets/dc-logo-bg.png) right bottom no-repeat,
-    url(../assets/footer-bg.jpg);
+  height: 250px;
+  background: url(../assets/img/dc-logo-bg.png) right bottom no-repeat,
+    url(../assets/img/footer-bg.jpg);
   background-size: 100% contain;
 }
 
@@ -172,5 +173,18 @@ export default {
 
 .col {
   display: flex;
+  margin-top: 1em;
+}
+
+h3 {
+  font-size: 0.8rem;
+  color: white;
+  margin-bottom: 0.8rem;
+}
+
+ul li {
+  color: lightgray;
+  line-height: 1rem;
+  font-size: 0.6rem;
 }
 </style>
