@@ -8,23 +8,26 @@
     <AppMainLinks />
     <footer>
       <AppTopFooter />
+      <AppBottomFooter/>
     </footer>
   </div>
 </template>
 
 <script>
 import AppHeader from "./components/AppHeader.vue";
+import AppJumbo from "./components/AppJumbo.vue";
 import AppMainLinks from "./components/AppMainLinks.vue";
 import AppTopFooter from "./components/AppTopFooter.vue";
-import AppJumbo from "./components/AppJumbo.vue";
+import AppBottomFooter from "./components/AppBottomFooter.vue";
 
 export default {
   name: "App",
   components: {
     AppHeader,
+    AppJumbo,
     AppMainLinks,
     AppTopFooter,
-    AppJumbo,
+    AppBottomFooter,
   },
 };
 </script>
