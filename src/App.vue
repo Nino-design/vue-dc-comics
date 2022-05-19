@@ -4,6 +4,7 @@
     <AppHeader />
     <main>
       <AppJumbo />
+      <AppComicsList/>
     </main>
     <AppMainLinks />
     <footer>
@@ -19,6 +20,7 @@ import AppJumbo from "./components/AppJumbo.vue";
 import AppMainLinks from "./components/AppMainLinks.vue";
 import AppTopFooter from "./components/AppTopFooter.vue";
 import AppBottomFooter from "./components/AppBottomFooter.vue";
+import AppComicsList from "./components/AppComicsList.vue";
 
 export default {
   name: "App",
@@ -28,6 +30,7 @@ export default {
     AppMainLinks,
     AppTopFooter,
     AppBottomFooter,
+    AppComicsList,
   },
 };
 </script>
